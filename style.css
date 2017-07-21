@@ -4,22 +4,22 @@ body{
   background-color: #f2f2f2;
   font-family: 'Raleway', sans-serif;
 }
-/*.midle{
-  position: absolute;
-  top:35%;
-  left: 35%;
 
-}*/
-/*.midle{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 .midle {
   position: fixed; /* or absolute */
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+@@media only screen and (min-width: 500px){
+  img{
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .maintext{
+    font-size: 25px;
+  }
 }

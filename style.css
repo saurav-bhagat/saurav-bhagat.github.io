@@ -2,4 +2,17 @@ body{
   margin: 0;
   overflow-x: hidden;
   background-color: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+/*.midle{
+  position: absolute;
+  top:35%;
+  left: 35%;
+
+}*/
+.midle{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

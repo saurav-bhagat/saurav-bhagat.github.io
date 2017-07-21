@@ -22,4 +22,7 @@ body{
   .maintext{
     font-size: 25px;
   }
+  .btn{
+    margin-bottom: 5px;
+  }
 }

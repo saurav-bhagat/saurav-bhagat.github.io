@@ -10,9 +10,16 @@ body{
   left: 35%;
 
 }*/
-.midle{
+/*.midle{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+.midle {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }

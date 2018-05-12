@@ -1,62 +1,274 @@
+<!DOCTYPE html>
 <html>
-    <head>
-      <link href="favicon.ico" rel="icon" type="image/x-icon" />
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-      <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
-      <title> &nbsp;&nbsp;< Saurav/ > </title>
-    </head>
+<head>
+	<title>Saurav Bhagat</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{
+			transition: all 0.2s ease;
+		}
+		body{
+			/*background: #f1f1f1;*/
+			color: #666;
+		}
+		.container{
+			margin-top: 12vh;
+			width: 70%;
+		}
+		.blog-h{
+			position: relative;
+		}
+		.blog-h::after{
+			content: '';
+			position: absolute;
+			border-bottom: 3px solid black;
+			left: 0;
+			bottom: 0;
+			color: red;
+			width: 50%;
+		}
+		.blog-link, .blog-link:hover{
+			text-decoration: none;
+		}
+		p{
+			font-size: 1.1rem;
+			letter-spacing: 1px;
+		}
+		@media screen and (max-width: 500px){
+			.container{
+				width: 96% !important;
+				margin-top: 6vh;
+			}
+		}
+		.c2c-images{
+			width: 80%;
+		}
+		.gallery .row .col-sm-12{
+			text-align: center;
+		}
+		.project-link{
+			text-decoration: none;
+		}
+		.show-contact-link{
+			cursor: pointer;
+			border-bottom: 2px solid black;
+			font-size: 1.1rem;
+		}
+		.social-links i{
+			padding-right: 20px;
+		}
+		.twi-link:hover{
+			color: #1da1f2;
+		}
+		.fb-link:hover{
+			color: #3b5998;
+		}
+		.link-link:hover{
+			color: #0077b5;
+		}
+		.ins-link:hover{
+			color: #e1306c;
+		}
+		.git-link:hover{
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container jumbotron">
+		<h1>Hello World!!</h1>
+		<ul class="nav nav-tabs">
+	  		<li class="nav-item">
+	    		<a class="nav-link active " data-toggle="tab" href="#home">Home</a>
+	  		</li>
+	  		<li class="nav-item">
+	    		<a class="nav-link" data-toggle="tab" href="#projects">Projects</a>
+	  		</li>
+	  		<li class="nav-item">
+	    		<a class="nav-link" data-toggle="tab" href="#blog">Blog</a>
+	  		</li>
+	  		<li class="nav-item">
+	    		<a class="nav-link" data-toggle="tab" href="#gallery">Gallery</a>
+	  		</li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+	  		<div class="tab-pane fade show active" id="home">
+	  			<br>
+	    		<p>Hi I am Saurav Bhagat. I am currently in my 5<sup>th</sup> Semester of B.tech in Information Technology from VIT University. I belong from Khunti, Jharkhand. I have completed my matriculation from <a href="http://www.ssdavkhunti.org/" target="_blank">S.S D.A.V Public school khunti</a> and Intermediate from <a href="http://www.scsranchi.com/" target="_blank">Surendranath Centenary School.</a></p>
+	    		<p style="text-indent: 50px;">
+	    		My work profile most suits me as a web developer and I am working in this field for last 2 years. My journey started after I entered <b><a href="http://acmvit.in" target="_blank">ACM VIT student chapter</a></b> and from there I have made multiple web projects, worked with several new technologies and mentored as well as learned a lot from my teammates.</p>
+	    		<p>
+	    		Honestly, I suffer a lot from this <cite>#javascriptfatigue</cite> even though javascript is &hearts; and my only savior.
+				</p>
+				
+	  		</div>
 
-    <body class="">
-      <div>
-        <!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+	  		<!-- Projects section -->
+		  	<div class="tab-pane fade" id="projects">
+		  		<br>
+		    	<!-- single project div -->
+		    	<div class="project-div">
+		    		<a href="http://rc.acmvit.in" class="project-link" target="_blank">
+		    			<h4 class="text-info">Reverse Coding Portal</h4>
+		    		</a>
+		    		<p>Portal (Frontend) made in React for the Reverse Coding event in VIT.</p>
+		    	</div>
+		    	<!-- div ends -->
+		    	<div class="project-div">
+		    		<a href="http://acmvit.in" class="project-link" target="_blank">
+		    			<h4 class="text-info">ACM VIT Student Chapter Website</h4>
+		    		</a>
+		    		<p>This is the official website of the ACM VIT student chapter.</p>
+		    	</div>
 
-        <div class="midle">
-          <div class="center-align">
-            <span><img class="center responsive-img circle"  src="sauravfc.png" alt="Saurav Kumar Bhagat" /></span>
-          </div>
-          <h2 class="maintext center-align" id="app" style=""> </h2>
-          <div class="center-align">
-            <a class="waves-effect waves-light btn blue-grey" href="https://www.facebook.com/caroline.aherne.16"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;
-            <a class="waves-effect waves-light btn blue-grey" href="https://twitter.com/sauravbhagat15"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;
-            <a class="waves-effect waves-light btn blue-grey" href="https://github.com/saurav-bhagat"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;
-            <a class="waves-effect waves-light btn blue-grey" href="https://www.linkedin.com/in/saurav-kumar-bhagat-34224712b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          </div>
+		    	<div class="project-div">
+		    		<a href="http://acm-recruitment.surge.sh" class="project-link" target="_blank">
+		    			<h4 class="text-info">ACM Recruitments</h4>
+		    		</a>
+		    		<p>This is the static web portal for recruitments of ACM VIT.</p>
+		    	</div>
+
+		    	<div class="project-div">
+		    		<a href="http://vit.ac.in/biomet2018" class="project-link" target="_blank">
+		    			<h4 class="text-info">Biomet 2018- International conference in VIT.</h3>
+		    		</a>
+		    		<p>This Static website is for the International conference on CBCMT in VIT</p>
+		    	</div>
+
+		    	<div class="project-div">
+		    		<a href="https://github.com/saurav-bhagat/codart-frontend" class="project-link" target="_blank">
+		    			<h4 class="text-info">Codart Portal</h4>
+		    		</a>
+		    		<p>An online Real-time portal (frontend) in React for Competitive coding event conducted by ACM-VIT</p>
+		    	</div>
 
 
-        </div>
-      </div>
+		  	</div>
+			<!-- Projects section ends -->
 
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
-      <script type="text/javascript">
-        var app = document.getElementById('app');
+		  	<!-- blog section -->
+			<div class="tab-pane fade" id="blog">
+				<!-- single blog div -->
+				<br>
+				<div class="blog-c">
+					<a href="https://medium.com/@sauravbhagat_10426/must-know-linux-commands-for-aspiring-software-engineers-7beb40f8a34f" target="_blank" class="blog-link">
+						<h3 class="blog-h text-success">Must Know Linux Commands for aspiring Software Engineers.</h3>
+			    		<p>So, you are here because you want to be a software engineer and I don’t feel the need to explain what is Linux because this article is not about. . .</p>
+					</a>
+			    </div>
+			    <!-- single blog div closed -->
+			    <br>
+				<div class="blog-c">
+					<a href="https://medium.com/@sauravbhagat_10426/how-to-deploy-a-node-express-app-in-heroku-53f723a545bf" target="_blank" class="blog-link">
+						<h3 class="blog-h text-success">How to deploy a Node + express App in heroku ?</h3>
+			    		<p>In this story I’m going to tell you about the process with which you can deploy your node app on heroku and make it online. There is a step by step process . . .</p>
+					</a>
+			    </div>
+			</div>
+			<!-- Blog Section ends -->
 
-        var typewriter = new Typewriter(app, {
-            loop: true
-        });
 
-        typewriter.typeString('Hello World!')
-            .pauseFor(1500)
-            .deleteAll()
-            .typeString("I'm a web developer.")
-            .pauseFor(1500)
-            .deleteAll()
-            .typeString("I'm Saurav")
-            .pauseFor(3500)
-            .start();
+			<!-- gallery section -->
+			<div class="tab-pane fade" id="gallery">
+				<br>
+			    
+				<div class="gallery-wrapper">
+					<!-- Gallery-1-->
+					<div class="gallery text-muted">
+						<h3>Code2Create - Hackathon By ACM</h3>
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<img src="images/c2c/c2c1.jpg" alt="code2create" class=" img-thumbnail img-responsive c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<img src="images/c2c/c2c2.jpg" alt="code2create" class=" img-thumbnail img-responsive c2c-images">
+							</div>
+						</div>
+					</div> 
+					<!-- gallery1 ends -->
+					<div class="gallery text-muted">
+						<h3>CodeSpace - Hackathon By ACM</h3>
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<img src="images/codespace/codespace-1.jpg" alt="codespace" class=" img-thumbnail img-responsive c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<img src="images/codespace/codespace-2.jpg" alt="CodeSpace" class=" img-thumbnail img-responsive c2c-images">
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="gallery text-muted">
+						<h3>Google Developer's Days</h3>
+						<div class="row">
+							<div class="col-sm-12 col-md-4">
+								<img src="images/gdd/gdd1.jpg" alt="GoogleDD" class=" img-thumbnail  img-responsive c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-4">
+								<img src="images/gdd/gdd2.jpg" alt="GoogleDD" class="img-thumbnail img-responsive c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-4">
+								<img src="images/gdd/gdd3.jpg" alt="GoogleDD" class=" img-thumbnail img-responsive c2c-images">
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="gallery text-muted">
+						<h3>ACM VIT student Chapter</h3>
+						<div class="row">
+							<div class="col-sm-12 col-md-4">
+								<img src="images/acm/acm1.jpg" alt="ACM" class="img-responsive img-thumbnail c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-4">
+								<img src="images/acm/acm2.jpg" alt="ACM" class="img-responsive img-thumbnail c2c-images">
+							</div>
+							<div class="col-sm-12 col-md-4">
+								<img src="images/acm/acm3.jpg" alt="ACM" class="img-responsive img-thumbnail c2c-images">
+							</div>
+							
+						</div>
+						<br><br>
+					</div>
 
-        //particle js template
-        particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
-      </script>
 
-    </body>
-  </html>
+				</div>
+			</div>
+			<!-- Gallery section ends -->
+		</div>
+		<a onclick="showContact()" class="show-contact-link">
+			> Contact me:
+		</a>
+		<div id="contact-div" style="display: none;">
+			<h4>You can contact me here :</h4>
+			<div class="social-links">
+				<a class="git-link" href="https://github.com/saurav-bhagat/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+				<a class="twi-link" href="https://twitter.com/sauravbhagat15" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				<a class="link-link" href="https://www.linkedin.com/in/saurav-kumar-bhagat-34224712b/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a class="fb-link" href="https://www.facebook.com/caroline.aherne.16" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+				<a class="ins-link" href="https://www.instagram.com/sauravbhagat6969/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function showContact(){
+			var div = document.getElementById('contact-div');
+			if(div.style.display==='none'){
+				$('#contact-div').fadeIn('fast');
+			} else {
+				div.style.display='none';
+			}
+		}
+		$('.nav-link').click(function(){
+			var div = document.getElementById('contact-div');
+			if(div.style.display!=='none'){
+				$('#contact-div').fadeOut('fast');
+			}
+		});
+	</script>
+</body>
+</html>
